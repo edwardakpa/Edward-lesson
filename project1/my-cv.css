@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+
+
+.a{
+    text-decoration: none;
+    color: white;
+}
+
+.a:hover{
+    color: brown;
+}
+.a:focus{
+    color: aqua;
+}
+
+.flex-container{
+    display: flex;
+    padding: 40px;
+    background-color: black;
+    justify-content: space-around;
+
+}
+
+hr{
+    margin-top: 20px;
+    height: 30px;
+}
+
+.flex-container:hover{
+    background-color: blue;
+}
+.flex-container:visited{
+    color: chartreuse;
+}
+
+img{
+    border-radius: 50%;
+    margin: 20px;
+}
+
+p{
+    margin-left: 10px;
+}
+h2,h3{
+    margin-left: 10px;
+}
+
+ol{
+    margin-left: 30px;
+}
+
+.about_us{
+    color: whitesmoke;
+    background-color:rgb(64, 61, 61); 
+    outline-style: none;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    padding: 5px;
+}
+.about_us:hover{
+    color: chartreuse;
+}
+
+.contact{
+    display: flex;
+    padding: 20px;
+    background-color:rgb(64, 61, 61);
+    font-size: 20px;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: white;
+}
+
+.ct{
+    text-decoration: none;
+    color:white;
+}
+.ct:hover{
+    color:whitesmoke;
+}
+.ct:focus{
+    color: hotpink;
+}
+.ct:visited{
+    color:lawngreen;
+}
+
+.ct1{
+    text-decoration: none;
+    color:white;
+}
+
+.ct1:hover{
+color:red;
+}
+.ct1:focus{
+color: navy;
+}
+.ct1:visited{
+color:lawngreen;
+}
+.email{
+    text-decoration: none;
+    margin-top: 30rem;
+    color: aliceblue;
+}
+/* ipad derive*/
+@media screen and  (max-width: 600px) {
+    .main-container{
+        width: 80%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 1.3rem;
+    }
+}
+
+
+/* phone derive*/
+@media screen and  (max-width: 320px) {
+    body{
+        background-color: blue;
+    }
+}
